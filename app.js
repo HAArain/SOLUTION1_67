@@ -1519,23 +1519,132 @@
 ///////////////////////////////CHAPTER 52 TO 57////////////////////////////////////////////
 
 
-function makeInvisible1() {
-    document.getElementById("ugly").className = "hidden";
-    }
+// function makeInvisible1() {
+//     document.getElementById("ugly").className = "hidden";
+//     }
  
-    function makeInvisible2() {
-      document.getElementById("ugly").className = "hidden";
-      }
-      function makeInvisible3() {
-         document.getElementById("ugly").className = "hidden";
-         }
+//     function makeInvisible2() {
+//       document.getElementById("ugly1").className = "hidden";
+//       }
+//       function makeInvisible3() {
+//          document.getElementById("ugly2").className = "hidden";
+//          }
 
-         function makeInvisible4() {
-            document.getElementById("ugly").className = "hidden";
-            }
+//          function makeInvisible4() {
+//             document.getElementById("ugly3").className = "hidden";
+//             }
 
 
 
+//////////////////////////////////////////////////TASK 52 TO 56//////////////////////////////////////////
+
+
+
+// function incree(){
+
+//     document.getElementById("incree").style.fontSize="2em";
+   
+// }
+
+// function decree(){
+
+//     document.getElementById("incree").style.fontSize="10px";
+   
+// }
+
+
+
+///////////////////////////////////////////////////58  TO 67 /////////////////////////////////////////////
+
+/////////////////////////////////TASK 01///////////////////////////////////////////////////////////////
+
+// var a = document.getElementById("main-content");
+// console.log(a);
+
+/////////////////////////////////TASK 02///////////////////////////////////////////////////////////////
+
+// var a = document.getElementById("main-content");
+// console.log(a.childNodes);
+
+
+/////////////////////////////////TASK 03///////////////////////////////////////////////////////////////
+
+// var a = document.getElementsByClassName('render');
+// for(i=0; i<a.length; i++){
+
+// console.log(a[i].innerHTML);
+
+
+// }
+
+/////////////////////////////////TASK 04///////////////////////////////////////////////////////////////
+
+// var a  = document.getElementById('first-name').value="hamza";
+// document.write(a);
+
+
+/////////////////////////////////TASK 05///////////////////////////////////////////////////////////////
+
+
+// var a  = document.getElementById('last-name').value="hamza";
+// document.write(a);
+// var b  = document.getElementById('email').value="hamza@gmail.com";
+// document.write(b);
+
+/////////////////////////////////TASK 06///////////////////////////////////////////////////////////////
+
+
+// var a = document.getElementById("form-content");
+// console.log(a.nodeType);
+
+/////////////////////////////////TASK 07///////////////////////////////////////////////////////////////
+
+
+// var a = document.getElementById("lastName");
+// console.log(a.nodeType);
+// var a = document.getElementById("lastName");
+// console.log(a.childNodes[0].nodeType);
+
+/////////////////////////////////TASK 08///////////////////////////////////////////////////////////////
+
+// var a = document.getElementById('lastName');
+// console.log(a.childNodes[0]);
+
+// var textnode = document.createTextNode("hamza");
+
+// a.replaceChild(textnode,a.childNodes[0]);
+
+// console.log(a.childNodes[0]);
+
+
+// /////////////////////////////////TASK 09///////////////////////////////////////////////////////////////
+
+// var a  = document.getElementById("main-content");
+// console.log(a.firstChild);
+
+
+// var a  = document.getElementById("main-content");
+// console.log(a.lastChild);
+
+
+// /////////////////////////////////TASK 10///////////////////////////////////////////////////////////////
+
+// var a =document.getElementById("lastName");
+// console.log(a.nextSibling);
+
+
+// var a =document.getElementById("lastName");
+// console.log(a.previousSibling);
+
+
+// /////////////////////////////////TASK 11///////////////////////////////////////////////////////////////
+
+
+// var a = document.getElementById("email");
+// console.log(a.parentNode)
+
+// var a = document.getElementById("email");
+// console.log(a.nodeType)
 
 
 
